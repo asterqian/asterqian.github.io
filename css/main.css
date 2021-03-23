@@ -240,6 +240,12 @@ section {
   margin-bottom: 2em;
 }
 
+@media only screen and (max-width: 445px) {
+  .social-header {
+    margin-top: center;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .projects_container ul {
     display: -ms-grid;
