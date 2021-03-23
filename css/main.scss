@@ -195,6 +195,13 @@ section {
     .social-header {
         margin-top: center;
     }
+    .project_title, .experiences_title {
+        place-content: center;
+        padding-top: -5em;
+    }
+    .featured_projects::before, .other_experiences::before {
+        width: 130px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -224,6 +231,9 @@ section {
         .experience_desc3 {
             display: none;
         }
+    }
+    .featured_projects::before, .other_experiences::before {
+        width: 320px;
     }
 }
 
@@ -305,6 +315,9 @@ section {
         margin-top: 15%;
         width: 100%;
     }
+    .featured_projects::before, .other_experiences::before {
+        width: 620px;
+    }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -319,5 +332,11 @@ section {
     }
     .project_desc2 {
         font-size: 1.3em;
+    }
+    .projects_title, .experiences_title {
+        font-size: larger;
+    }
+    .featured_projects::before, .other_experiences::before {
+        width: 780px;
     }
 }
